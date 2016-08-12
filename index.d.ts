@@ -1,4 +1,4 @@
-declare module validUrl {
+declare namespace validUrl {
     export function is_uri(value: string): string;
     export function isUri(value: string): string;
 
