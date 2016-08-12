@@ -1,15 +1,15 @@
-declare namespace valid-url {
-    function is_uri(value: string): boolean;
-    function isUri(value: string): boolean;
+declare module validUrl {
+    export function is_uri(value: string): string;
+    export function isUri(value: string): string;
 
-    function is_http_uri(value: string, allowHttps?: boolean): boolean;
-    function isHttpUri(value: string, allowHttps?: boolean): boolean;
+    export function is_http_uri(value: string, allowHttps?: boolean): string;
+    export function isHttpUri(value: string, allowHttps?: boolean): string;
 
-    function is_https_uri(value: string): boolean;
-    function isHttpsUri(value: string): boolean;
+    export function is_https_uri(value: string): string;
+    export function isHttpsUri(value: string): string;
 
-    function is_web_uri(value: string): boolean;
-    function isWebUri(value: string): boolean;
+    export function is_web_uri(value: string): string;
+    export function isWebUri(value: string): string;
 }
 
-export = valid-url;
+export = validUrl;

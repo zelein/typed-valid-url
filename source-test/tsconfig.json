@@ -4,7 +4,11 @@
     "moduleResolution": "node"
   },
   "files": [
-    "../typings/main.d.ts",
-    "../out/main.d.ts"
+    "is_web_uri.ts",
+    "is_uri.ts",
+    "is_https_uri.ts",
+    "is_http_uri.ts",
+    "../typings/index.d.ts",
+    "../out/index.d.ts"
   ]
 }
